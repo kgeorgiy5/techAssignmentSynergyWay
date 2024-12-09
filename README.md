@@ -1,4 +1,9 @@
 # Build
-`npm i`
+```
+npm i
+```
+
 # Run
-`npm run preview`
+```
+npm run dev
+```
