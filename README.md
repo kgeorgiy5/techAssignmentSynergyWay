@@ -111,55 +111,55 @@ export interface ICompany{
 ```
 CompanyWidgetsProps{}
 ```
-Component that contains core `react-mosaic-component` component, displays all the company information widgets.
+Component that contains the core `react-mosaic-component`, and displays all company information widgets.
 #### CompanyWidget
 ```
 CompanyWidgetProps{
-    // path to the current mosaic window
+    // Path to the current mosaic window
     path: MosaicBranch[];
-    // unique id of the mosaic window
-    id:number;
+    // Unique ID of the mosaic window
+    id: number;
 }
 ```
 Custom wrapper of `MosaicWindow`.
 #### WidgetControls
 ```
 WidgetControlsProps{
-    // path to the parent mosaic window
-    path:MosaicPath;
-    // id of the parent mosaic window
-    id:number;
-    // selected ticker
-    currentTicker:string|null;
-    // callback that is triggered after ticker change
-    onTickerChange:(e:string) => void,
+    // Path to the parent mosaic window
+    path: MosaicPath;
+    // ID of the parent mosaic window
+    id: number;
+    // Selected ticker
+    currentTicker: string | null;
+    // Callback that is triggered after ticker change
+    onTickerChange: (e: string) => void;
 }
 ```
 Custom `react-mosaic-component` window controls.
 #### TickerDropdown
 ```
 TickerDropdownProps{
-    // selected ticker
-    currentTicker:string|null;
-    // callback that is triggered after ticker change
-    onChange:(ticker:string) => void;
+    // Selected ticker
+    currentTicker: string | null;
+    // Callback that is triggered after ticker change
+    onChange: (ticker: string) => void;
 }
 ```
-Dropdown menu where current company can be selected by ticker.
+Dropdown menu where the current company of the window can be selected by ticker.
 #### InfoField
 ```
 InfoFieldProps{
-    // name of the field
-    label:string;
-    // info field content
-    value:string|number|null|boolean;
+    // Name of the field
+    label: string;
+    // Info field content
+    value: string | number | null | boolean;
 }
 ```
 Custom component that displays individual piece of company's information.
 #### Empty
 ```
 EmptyProps{
-    // string that is displayed inside Empty component
+    // String that is displayed inside the Empty component
     text:string;
 }
 ```
@@ -185,4 +185,4 @@ Custom hook that returns all available tickers.
 ```
 parseCompanyKey: (key:string) => string;
 ```
-Function that parses JSON keys to use them as the labels in InfoField component
+Function that parses JSON keys to use them as labels in the InfoField component.
