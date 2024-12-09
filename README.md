@@ -10,7 +10,7 @@
 2. Ability to select a company whose information will be displayed.
 3. Ability to resize, split, expand, and close widgets.
 ## Installation
-### Installation using GitHub
+### Installation using Git
 1. Clone the GitHub repository
 ```bash
 git clone https://github.com/kgeorgiy5/techAssignmentSynergyWay
