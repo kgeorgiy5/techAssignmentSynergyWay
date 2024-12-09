@@ -1,10 +1,10 @@
 # Technical assignment SynergyWay
 ## Table of Contents
-- [Key features](# Key features)
-- [Installation](# Installation)
-- [Used technologies](# List of used technologies)
-- [File structure](# File structure)
-- [Application logic](# Application logic)
+- [Key features](#key-features)
+- [Installation](#installation)
+- [Used technologies](#list-of-used-technologies)
+- [File structure](#file-structure)
+- [Application logic](#application-logic)
 ## Key features
 1. Ability to display widget with company's information fetched from an API.
 2. Ability to select company which information would be displayed.
