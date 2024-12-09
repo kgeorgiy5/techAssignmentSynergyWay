@@ -6,16 +6,16 @@
 - [File structure](#file-structure)
 - [Application logic](#application-logic)
 ## Key features
-1. Ability to display widget with company's information fetched from an API.
-2. Ability to select company which information would be displayed.
-3. Ability to resize, split, expand and close widgets.
+1. Ability to display a widget with company information fetched from an API.
+2. Ability to select a company whose information will be displayed.
+3. Ability to resize, split, expand, and close widgets.
 ## Installation
 ### Installation using GitHub
 1. Clone the GitHub repository
 ```bash
 git clone https://github.com/kgeorgiy5/techAssignmentSynergyWay
 ```
-2. Intall the dependencies
+2. Install the dependencies
 Inside project's directory run this command:
 ```bash
 npm install
@@ -46,18 +46,18 @@ docker run -p 3000:3000 kgeorgiy5/techassignmentsynergyway
 ```
 .
 └── src/
-    ├── assets/ - project assets
-    ├── data/ - comanies data
-    ├── components/ - contains react components
-    ├── hooks/ - contains custom hooks
-    ├── reducers/ - redux reducers
-    ├── utils/ - utility functions
-    ├── types.ts - typescript types/interfaces
-    ├── store.ts - redux store
-    ├── App.css - styles for the application
-    ├── App.tsx - main component
-    ├── main.tsx - main tsx file, contails all redux providers
-    └── index.css - tailwind installation
+    ├── assets/         # Project assets
+    ├── data/           # Companies data
+    ├── components/     # Contains React components
+    ├── hooks/          # Contains custom hooks
+    ├── reducers/       # Redux reducers
+    ├── utils/          # Utility functions
+    ├── types.ts        # TypeScript types/interfaces
+    ├── store.ts        # Redux store
+    ├── App.css         # Styles for the application
+    ├── App.tsx         # Main component
+    ├── main.tsx        # Main TSX file, contains all Redux providers
+    └── index.css       # Tailwind installation
 ```
 ## Application logic
 ### Types
